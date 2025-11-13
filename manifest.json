@@ -16,13 +16,4 @@
       "type": "image/png"
     }
   
-  "description": "A simple note-taking app."
-
-  "screenshots": [
-    {
-      "src": "screenshot1.PNG",
-      "type": "image/png",
-      "sizes": "750x1334"
-    }
-  ]
 }
