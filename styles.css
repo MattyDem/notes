@@ -1,0 +1,94 @@
+/* Reset and layout */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #009688, #004d40);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+p {
+  font-size: 2em;
+  margin-top: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Note counter */
+.noteCount {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+/* Input box */
+.inputBox {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  margin: 10px 0;
+  outline: none;
+  background: #fff;
+  color: #333;
+}
+
+/* Add button */
+.addButton {
+  background: #004d40;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addButton:hover {
+  background: #00796b;
+}
+
+/* Notes list */
+.js-listOfNotes {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.js-listOfNotes div {
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  word-wrap: break-word;
+  position: relative;
+}
+
+/* Delete button */
+.deleteButton {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 3px 8px;
+  font-size: 0.8em;
+}
+
+.deleteButton:hover {
+  background: #ff1744;
+}
