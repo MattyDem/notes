@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "matty notes",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "notes",
+  "start_url": "/",
+  "theme_color": "#00897b",
+  "id": "MattyNotes",
+  "description": "A simple Note Taking app"
+{
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "A simple note-taking app."
+
+  "screenshots": [
+    {
+      "src": "screenshot1.PNG",
+      "type": "image/png",
+      "sizes": "750x1334"
+    }
+  ]
+}
