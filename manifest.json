@@ -10,4 +10,9 @@
   "theme_color": "#00897b",
   "id": "MattyNotes",
   "description": "A simple Note Taking app"
+  {
+      "src": "icon.png",
+      "sizes": "1024x1024"
+    }
+
 }
