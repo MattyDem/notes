@@ -9,5 +9,19 @@
   "start_url": "/",
   "theme_color": "#00897b",
   "id": "MattyNotes",
-  "description": "A simple Note Taking app"
+  "description": "A simple Note Taking app",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "750x1334"
+    }
+  ]
 }
