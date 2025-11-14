@@ -19,7 +19,7 @@
 		<script src='index.js'></script>
 		<script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
+      navigator.serviceWorker.register('notes/service-worker.js')
         .then(() => console.log('Service worker registered'))
         .catch(err => console.log('Service worker failed:', err));
     }
