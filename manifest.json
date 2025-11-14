@@ -28,5 +28,9 @@
      "utilities"
   ],
   "prefer_related_applications": true,
-  "lang": "en"
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
