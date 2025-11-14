@@ -2,7 +2,7 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('notes-app-cache').then(cache => {
       return cache.addAll([
-        'https://mattydem.github.io/notes/',
+        './',
         './index.html',
         './styles.css',
         './index.js',
